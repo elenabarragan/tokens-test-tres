@@ -1,0 +1,80 @@
+{
+  "global": {
+    "Base": {
+      "Grey": {
+        "grey-100": {
+          "value": "#e6e6e6",
+          "type": "color"
+        },
+        "grey-200": {
+          "value": "#bfbfbf",
+          "type": "color"
+        },
+        "grey-300": {
+          "value": "#8c8c8c",
+          "type": "color"
+        },
+        "grey-400": {
+          "value": "#595959",
+          "type": "color"
+        },
+        "grey-500": {
+          "value": "#1a1a1a",
+          "type": "color"
+        }
+      },
+      "Red": {
+        "red-100": {
+          "value": "#fd0000",
+          "type": "color"
+        },
+        "red-200": {
+          "value": "#b20000",
+          "type": "color"
+        }
+      }
+    },
+    "Especificos-color-background-btn-default": {
+      "value": "{Base.Grey.grey-100}",
+      "type": "color"
+    },
+    "Especificos-color-background-btn-desktop": {
+      "value": "{Base.Grey.grey-200}",
+      "type": "color"
+    },
+    "Especificos-color-background-btn-mobile": {
+      "value": "{Base.Grey.grey-300}",
+      "type": "color"
+    },
+    "Shadow": {
+      "shadow-100": {
+        "value": {
+          "color": "#00000040",
+          "type": "dropShadow",
+          "x": 0,
+          "y": 4,
+          "blur": 4,
+          "spread": 0
+        },
+        "type": "boxShadow"
+      }
+    },
+    "Especificos-shadow-background-btn-default": {
+      "value": {
+        "color": "#00000040",
+        "type": "dropShadow",
+        "x": "0",
+        "y": "4",
+        "blur": "4",
+        "spread": "0"
+      },
+      "type": "boxShadow"
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global"
+    ]
+  }
+}
